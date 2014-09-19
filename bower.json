@@ -1,0 +1,43 @@
+{
+  "name": "appverse-web-html5-ui",
+  "description": "Appverse web html5 ui module.",
+  "version": "0.2.0",
+  "main": "src/angular-jqm.js",
+  "dependencies": {
+    "appverse-web-html5-core": "0.2.0",
+    "bootstrap-sass": "2.3.1",
+    "es5-shim": "2.0.8",
+    "angular-bootstrap": "0.6.0",
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    "modernizr": "2.6.1",
+    "angular-animate": "1.2.1",
+    "angular-touch": "1.2.1",
+    "venturocket-angular-slider": "~0.3.2",
+    "angular-qr": "~0.1.4",
+    "angular-xeditable": "~0.1.8",
+    "ng-grid": "2.0.11"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.0.8",
+    "angular-scenario": "1.0.8"
+  },
+  "resolutions": {
+    "jquery": "1.10.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "docs",
+    "bower_components",
+    "test",
+    "Gruntfile.js",
+    "angus-site",
+    "docs-generation",
+    "appverse-html5-examples",    
+    "karma.conf.js",
+    "karma-e2e.conf.js",
+    "package.json",
+    "sonar-project.properties",
+    "changelog.js"
+]
+}
