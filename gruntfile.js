@@ -26,7 +26,7 @@ module.exports = function (grunt) {
 		yeoman: yeomanConfig,		
 		maven: {
 			options: {
-                goal:'install',
+                goal:'package',/*change to 'release' to publish version*/
 				groupId: 'org.appverse.web.framework.modules.frontend.html5',
 				releaseRepository: 'url'
 				
@@ -335,10 +335,10 @@ module.exports = function (grunt) {
 		}
     });
 
-	grunt.loadNpmTasks('grunt-docular');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-bump');
-	grunt.loadNpmTasks('grunt-maven-tasks');
+    grunt.loadNpmTasks('grunt-docular');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-bump');
+    grunt.loadNpmTasks('grunt-maven-deploy');
 
     grunt.registerTask('doc', [
 		'clean:docular',
