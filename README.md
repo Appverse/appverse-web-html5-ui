@@ -21,7 +21,7 @@ Appverse Web Client Side ui module based on HTML5 and Java Script
 * Install bower `npm install -g bower`
 
 ####Inside of your app:
-* Run `bower install appverse-web-html5-ui -s`
+* Run `bower install appverse-web-html5-ui -S`
 * Add the following to your index.html
 ```html
 
