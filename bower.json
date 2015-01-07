@@ -5,7 +5,7 @@
   "main": "src/angular-jqm.js",
   "dependencies": {
     "appverse-web-html5-core": "~0.2.1",
-    "bootstrap-sass": "3.0.2",
+    "bootstrap-sass-official": "~3.0.3",
     "es5-shim": "2.0.8",
     "angular-bootstrap": "~0.11.0",
     "angular-ui-router": "0.2.8-bowratic-tedium",
@@ -22,7 +22,8 @@
     "angular-scenario": "1.2.20"
   },
   "resolutions": {
-
+    "angular": "1.2.20",
+    "angular-mocks": "1.2.20"
   },
   "ignore": [
     "**/.*",
@@ -33,11 +34,11 @@
     "Gruntfile.js",
     "angus-site",
     "docs-generation",
-    "appverse-html5-examples",    
+    "appverse-html5-examples",
     "karma.conf.js",
     "karma-e2e.conf.js",
     "package.json",
     "sonar-project.properties",
     "changelog.js"
-]
+  ]
 }
