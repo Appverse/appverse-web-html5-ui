@@ -1,7 +1,7 @@
 {
   "name": "appverse-web-html5-ui",
   "description": "Appverse web html5 ui module.",
-  "version": "0.4.0",
+  "version": "0.5.0-dev",
   "dependencies": {
     "appverse-web-html5-core": "~0.4.0",
     "venturocket-angular-slider": "~0.3.2",
