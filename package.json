@@ -1,6 +1,6 @@
 {
   "name": "appverse-web-html5-ui",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "devDependencies": {
     "connect-livereload": "~0.2.0",
     "grunt": "~0.4.5",
