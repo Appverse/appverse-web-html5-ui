@@ -1,5 +1,8 @@
 appverse-web-html5-ui
 =====================
+
+<h1><b>This repository is deprecated.</b></h1>
+
 Appverse Web Client Side ui module based on HTML5 and Java Script
 
 ## More Information
